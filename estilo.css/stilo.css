@@ -1,4 +1,8 @@
 /* ---------- ESTILOS GENERALES ---------- */
+@font-face {
+    font-family: "Sugar Pie";
+    src: url("font/Sugar-Pie-W00-Regular.ttf") format("truetype");
+}
 
 body {
     margin: 0;
@@ -51,7 +55,9 @@ nav a {
     width: 100%;
     letter-spacing: 9px;
     text-align: center;
-    font-family: "Sugar-Pie-W00-Regular", sans-serif;
+    @font-face {
+    font-family: "Sugar Pie";
+}
     -webkit-text-stroke: 0.20px #86769b;
     color: white;
    
@@ -60,7 +66,9 @@ nav a {
 }
 
 .titulo h1 {
-    font-family: "    font-family: "Sugar-Pie-W00-Regular", sans-serif";
+    @font-face {
+    font-family: "Sugar Pie";
+}
     font-size: 150px;
     color: white;
     letter-spacing: 1px;
@@ -151,7 +159,9 @@ nav a {
 .categoria h2 {
     margin: 0 0 10px;
     color: #e7aaa5;
-    font-family: "    font-family: "Sugar-Pie-W00-Regular", sans-serif";
+    @font-face {
+    font-family: "Sugar Pie";
+}
      -webkit-text-stroke: 0.20px #f0edf4;
     font-size: 32px;
 }
@@ -201,7 +211,7 @@ nav a {
 .texto-sobre-mi h1 {
     margin: 0 0 15px;
     color: #e8d33f;
-    font-family: "    font-family: "Sugar-Pie-W00-Regular", sans-serif";
+    font-family: "Sugar Pie";
     font-size: 70px;
 }
 
