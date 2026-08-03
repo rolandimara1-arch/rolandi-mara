@@ -1,0 +1,223 @@
+/* ---------- ESTILOS GENERALES ---------- */
+
+body {
+    margin: 0;
+    font-family: montserrat, futura;
+    background-color: #f7f6ed;
+}
+
+img {
+    width: 300px;
+}
+
+
+/* ---------- PORTADA ---------- */
+
+.hero {
+    height: 350px;
+    background-image: url("../FONDO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/* ---------- MENÚ ---------- */
+
+nav {
+    height: 40px;
+    background-color: #86769b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "futura";
+}
+
+
+/* ---------- TÍTULO ---------- */
+
+.titulo {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    letter-spacing: 9px;
+    text-align: center;
+    font-family: "Boogie", sans-serif;
+    -webkit-text-stroke: 0.20px #86769b;
+    color: white;
+   
+    text-shadow:0 3px 6px rgba(0,0,0,.45),
+
+}
+
+.titulo h1 {
+    font-family: "Boogie";
+    font-size: 150px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 5px 10px rgba(125, 133, 50, 0.3);
+    margin: 0;
+}
+
+
+/* ---------- FRANJA ---------- */
+
+.franja {
+    width: 100%;
+    height: 50px;
+    background-color: #7d8532;
+    color: white;
+    display: flex;
+    align-items: center; /* centra verticalmente */
+    justify-content: center; /* centra horizontalmente */
+    overflow: hidden;
+}
+
+.franja p {
+    width: max-content;
+    animation: mover 60s linear infinite;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.presentacion {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion h2 {
+    font-size: 35px;
+    font-family: "futura";
+}
+
+.presentacion {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-presentacion {
+    width: 520px;
+    padding: 45px 55px;
+
+    background-color: #86769b;
+    border: 12px solid #8bbdd0;
+    border-radius: 55% 45% 60% 40% / 45% 60% 40% 55%;
+    color: white;
+    text-align: center;
+}
+
+.caja-presentacion p {
+    margin: 0;
+    font-family: "futura", sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.categorias {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 40px;
+}
+.categoria {
+    display: block;
+    width: 420px;
+    text-align: center;
+    text-decoration: none;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.categoria h2 {
+    margin: 0 0 10px;
+    color: #e7aaa5;
+    font-family: "Boogie";
+     -webkit-text-stroke: 0.20px #f0edf4;
+    font-size: 32px;
+}
+
+.categoria img{
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+    object-position: 40% 27%;
+    border-radius: 30px;
+     border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+    transition: .3s;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.categoria img:hover {
+    transform: scale(1.03);
+}
+
+.texto-sobre-mi h1 {
+    color: red !important;
+    font-size: 100px !important;
+}
+
+.pagina-sobre-mi {
+    min-height: 100vh;
+    padding: 70px 20px;
+    background-color: #e3dfbb;
+}
+
+.contenido-sobre-mi {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.texto-sobre-mi {
+    width: 55%;
+}
+
+.texto-sobre-mi h1 {
+    margin: 0 0 15px;
+    color: #e8d33f;
+    font-family: "Boogie";
+    font-size: 70px;
+}
+
+.texto-sobre-mi p {
+    font-family: "futura", sans-serif;
+    font-size: 20px;
+    line-height: 1.45;
+}
+
+.foto-sobre-mi {
+    width: 35%;
+}
+
+.foto-sobre-mi img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    display: block;
+}
