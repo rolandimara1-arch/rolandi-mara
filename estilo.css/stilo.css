@@ -183,15 +183,13 @@ nav a {
 .sobre-mi {
     min-height: 100vh;
     background-color: #f7f6ed;
-
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 60px;
 
     padding: 60px 8%;
 }
-
 .texto-sobre-mi {
     width: 50%;
 }
@@ -203,8 +201,4 @@ nav a {
 .foto-sobre-mi img {
     width: 100%;
     height: auto;
-}
-
-.sobre-mi {
-    background-color: red !important;
 }
