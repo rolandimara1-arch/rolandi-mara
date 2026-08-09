@@ -55,7 +55,6 @@ nav a {
     width: 100%;
     letter-spacing: 9px;
     text-align: center;
-    @font-face {
     font-family: "Sugar Pie";
 }
     -webkit-text-stroke: 0.20px #86769b;
@@ -66,7 +65,6 @@ nav a {
 }
 
 .titulo h1 {
-    @font-face {
     font-family: "Sugar Pie";
 }
     font-size: 150px;
@@ -159,7 +157,6 @@ nav a {
 .categoria h2 {
     margin: 0 0 10px;
     color: #e7aaa5;
-    @font-face {
     font-family: "Sugar Pie";
 }
      -webkit-text-stroke: 0.20px #f0edf4;
@@ -183,42 +180,20 @@ nav a {
     transform: scale(1.03);
 }
 
-.texto-sobre-mi h1 {
-    color: red !important;
-    font-size: 100px !important;
-}
-
-.pagina-sobre-mi {
+.sobre-mi {
     min-height: 100vh;
-    padding: 70px 20px;
-    background-color: #e3dfbb;
-}
+    background-color: #f7f6ed;
 
-.contenido-sobre-mi {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 60px;
+
+    padding: 60px 8%;
 }
 
 .texto-sobre-mi {
-    width: 55%;
-}
-
-.texto-sobre-mi h1 {
-    margin: 0 0 15px;
-    color: #e8d33f;
-    font-family: "Sugar Pie";
-    font-size: 70px;
-}
-
-.texto-sobre-mi p {
-    font-family: "futura", sans-serif;
-    font-size: 20px;
-    line-height: 1.45;
+    width: 50%;
 }
 
 .foto-sobre-mi {
@@ -227,7 +202,5 @@ nav a {
 
 .foto-sobre-mi img {
     width: 100%;
-    height: 470px;
-    object-fit: cover;
-    display: block;
+    height: auto;
 }
