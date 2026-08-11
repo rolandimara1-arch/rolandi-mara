@@ -219,18 +219,18 @@ nav a {
 
 .estrella-amarilla {
     position: absolute;
-    width: 150px !important;
+    width: 90px !important;
     height: auto !important;
-    top: 35px;
-    right: 120px;
+    top: -35px;
+    right: -35px;
 }
 
 .estrella-verde {
     position: absolute;
-    width: 120px !important;
+    width: 80px !important;
     height: auto !important;
-    bottom: 170px;
-    left: 760px;
+    bottom: -25px;
+    left: -35px;
 }
 
 .franja-sobre-mi {
