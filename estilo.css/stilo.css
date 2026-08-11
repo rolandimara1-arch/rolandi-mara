@@ -204,10 +204,23 @@ nav a {
 }
 
 .foto-sobre-mi {
-    width: 35%;
+    width: 30%;
 }
 
 .foto-sobre-mi img {
     width: 100%;
+    height: center;
+    display: block;
+}
+
+.franja-sobre-mi {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
     height: auto;
+}
+.franja-abajo {
+    top: auto;
+    bottom: 15px;
 }
