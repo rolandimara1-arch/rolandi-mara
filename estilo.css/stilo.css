@@ -251,3 +251,34 @@ nav a {
     top: auto;
     bottom: 140px;
 }
+
+@media (max-width: 768px) {
+
+    .sobre-mi {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 70px 25px;
+    }
+
+    .texto-sobre-mi {
+        width: 100%;
+    }
+
+    .texto-sobre-mi h1 {
+        font-size: 50px;
+    }
+
+    .texto-sobre-mi p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .foto-sobre-mi {
+        width: 35%;
+    }
+    
+    .franja-abajo {
+    bottom: -50px;
+}
+}
