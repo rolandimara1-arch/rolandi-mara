@@ -171,8 +171,51 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+@media (max-width: 768px) {
+.titulo h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    letter-spacing: 0;
+}
+
 .categoria img:hover {
     transform: scale(1.03);
+}
+
+nav {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    padding: 10px 15px;
+}
+
+nav a {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.franja {
+    height: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.franja p {
+    white-space: nowrap;
+    font-size: 14px;
+    margin: 0;
+}
+}
+
+@media (max-width: 768px) {
+
+    .categorias {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 .sobre-mi {
@@ -250,6 +293,8 @@ nav a {
 }
 
 @media (max-width: 768px) {
+
+    
 
     .sobre-mi {
         flex-direction: column;
