@@ -50,26 +50,22 @@ nav a {
 /* ---------- TÍTULO ---------- */
 
 .titulo {
-    position: absolute;
-    top: 80px;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    letter-spacing: 9px;
     text-align: center;
-    font-family: "Sugar Pie";
-}
-    -webkit-text-stroke: 0.20px #86769b;
-    color: white;
-   
+    z-index: 2;
     text-shadow:0 3px 6px rgba(0,0,0,.45),
 
 }
 
 .titulo h1 {
     font-family: "Sugar Pie";
-}
-    font-size: 150px;
+    font-size: 180px;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: -5px;
     text-shadow: 0px 5px 10px rgba(125, 133, 50, 0.3);
     margin: 0;
 }
@@ -86,11 +82,12 @@ nav a {
     align-items: center; /* centra verticalmente */
     justify-content: center; /* centra horizontalmente */
     overflow: hidden;
+    
 }
 
 .franja p {
     width: max-content;
-    animation: mover 60s linear infinite;
+    animation: mover 65s linear infinite;
 }
 
 @keyframes mover {
@@ -277,7 +274,7 @@ nav a {
     .foto-sobre-mi {
         width: 35%;
     }
-    
+
     .franja-abajo {
     bottom: -50px;
 }
